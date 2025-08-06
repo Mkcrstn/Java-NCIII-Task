@@ -10,9 +10,9 @@ interface Animal {
 
     @Override
     public boolean feed(boolean timeToEat) {
-        
+        // lather, rinse, repeat
         if (timeToEat) {
-            
+            // put gorilla food into cage
             System.out.println("Feeding the gorilla...");
             return true;
         } else {
@@ -22,13 +22,13 @@ interface Animal {
 
     @Override
     public void groom() {
-       
+        // lather, rinse, repeat
         System.out.println("Grooming the gorilla...");
     }
 
     @Override
     public void pet() {
-        
+        // pet at your own risk
         System.out.println("You pet the gorilla. Be careful!");
     }
 }
